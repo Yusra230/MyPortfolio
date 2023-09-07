@@ -1,0 +1,205 @@
+body {
+    color: white;
+    background-color: rgb(31, 36, 45);
+    overflow-x: hidden;
+}
+
+/* to remove horizontal scroll bar  */
+html {
+    overflow-x: hidden;
+
+}
+
+.bg1 {
+    background: rgb(31, 36, 45);
+}
+
+.bg2 {
+    background: rgb(50, 57, 70);
+}
+
+#navbarsExample07 ul li a {
+    color: white;
+    font-size: 1.1rem;
+}
+
+#navbarsExample07 ul li a:hover {
+    color: rgb(0, 238, 255);
+}
+
+nav .container span {
+    font-size: 1.5rem;
+}
+
+/* section .container {
+    margin-top: 70px;
+} */
+
+.color-change {
+    color: rgb(0, 238, 255);
+}
+
+.button-style {
+    background-color: rgb(0, 238, 255);
+    color: rgb(31, 36, 45);
+    border-radius: 25px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: 1px 1px 7px rgb(0, 238, 255);
+    font-weight: 600;
+    margin: 1rem 0rem;
+}
+
+
+.button-style:hover {
+    box-shadow: none;
+    background-color: rgb(0, 238, 255);
+    color: rgb(31, 36, 45);
+}
+
+.icon-style {
+    color: rgb(0, 238, 255);
+    font-size: 2rem;
+    margin: 0rem 0.5rem;
+
+}
+
+.icon-style:hover {
+    text-shadow: 1px 1px 10px rgb(0, 238, 255);
+
+}
+
+section #card1 h1 {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    /* border: 2px solid red; */
+}
+
+section #card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section .card-body {
+    background-color: rgb(50, 57, 70);
+    color: white;
+    border-radius: 25px;
+    margin: 1rem 0.7rem;
+    padding: 1rem 1rem;
+    height: 390px;
+    width: 345px;
+    transition: all;
+
+}
+
+section .card-body:hover {
+    transform: scale(1.04);
+    border: 2px solid rgb(0, 238, 255);
+}
+
+
+.card-button-style {
+    background-color: rgb(0, 238, 255);
+    color: rgb(31, 36, 45);
+    border-radius: 25px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: 1px 1px 7px rgb(0, 238, 255);
+    font-weight: 600;
+}
+
+.card-button-style:hover {
+    box-shadow: none;
+    background-color: rgb(0, 238, 255);
+    color: rgb(31, 36, 45);
+}
+
+
+.icons-set {
+    color: rgb(0, 238, 255);
+    font-size: 4rem;
+}
+
+#portfolio .portfolio-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    padding-bottom: 2rem;
+}
+
+#portfolio .portfolio-images img {
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 1rem 1rem;
+    transition: all;
+}
+
+#portfolio .portfolio-images img:hover {
+    transform: scale(1.05);
+}
+
+#portfolio .container h1 {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    /* border: 2px solid red; */
+}
+
+#contact .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#contact form input,
+#contact form textarea {
+    background-color: rgb(50, 57, 70);
+    border: transparent;
+    margin: 0.5rem 0rem;
+
+}
+
+#contact form {
+    width: 70%;
+}
+
+#contact .container h1 {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    /* border: 2px solid red; */
+}
+
+
+
+.form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: grey;
+    opacity: 1;
+    /* Firefox */
+}
+
+.text-body-light {
+    color: white;
+}
+
+.text-body-light:hover {
+    color: rgb(0, 238, 255);
+}
+
+footer {
+    margin-top: 3rem;
+}
